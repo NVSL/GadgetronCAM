@@ -7,18 +7,38 @@ Section=Sec_3
 Section=Sec_4
 Section=Sec_5
 Section=Sec_6
+Section=Sec_7
 
 [Sec_1]
 Name[de]="Bestückungsseite"
+Name[en]="Mechanical"
+Prompt=""
+Device="PS"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.mech.ps"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="11000.0mil 7750.0mil"
+Layers=" 20 47"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_2]
+Name[de]="Bestückungsseite"
 Name[en]="Component side"
-Prompt[de]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.cmp"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -27,17 +47,17 @@ Page="12000.0mil 8000.0mil"
 Layers=" 1 17 18"
 Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
 
-[Sec_2]
+[Sec_3]
 Name[de]="Lötseite"
 Name[en]="Solder side"
-Prompt[de]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.sol"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -46,17 +66,17 @@ Page="12000.0mil 8000.0mil"
 Layers=" 16 17 18"
 Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
 
-[Sec_3]
+[Sec_4]
 Name[de]="Bestückungsdruck"
 Name[en]="Silk screen CMP"
-Prompt[de]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.plc"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -65,17 +85,17 @@ Page="12000.0mil 8000.0mil"
 Layers=" 20 21 25"
 Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
 
-[Sec_4]
+[Sec_5]
 Name[de]="Lötstopmaske Bestückungsseite"
 Name[en]="Solder stop mask CMP"
-Prompt[de]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.stc"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -84,17 +104,17 @@ Page="12000.0mil 8000.0mil"
 Layers=" 29"
 Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
 
-[Sec_5]
+[Sec_6]
 Name[de]="Lötstopmaske Lötseite"
 Name[en]="Solder stop mask SOL"
-Prompt[de]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.sts"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -103,21 +123,21 @@ Page="12000.0mil 8000.0mil"
 Layers=" 30"
 Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
 
-[Sec_6]
+[Sec_7]
 Name[de]="Bohrdaten erzeugen"
 Name[en]="Generate drill data"
 Prompt=""
 Device="EXCELLON"
 Wheel=".whl"
 Rack=""
-Scale=1.000000
+Scale=1
 Output="%N.drd"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
-Tolerance="0.000000 0.000000 0.000000 0.000000 0.025000 0.025000"
-Pen="0.0mil 0.000000"
+Tolerance="0 0 0 0 0.025 0.025"
+Pen="0.0mil 0"
 Page="12000.0mil 8000.0mil"
 Layers=" 44 45"
 Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
