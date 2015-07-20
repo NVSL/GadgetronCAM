@@ -4,7 +4,7 @@
 
 Type     = DrillStation
 Long     = "Excellon drill station, coordinate format 2.5 inch"
-Init     = "%%\nM48\nM72\nG90"
+Init     = "%%\nM48\nM72"
 Reset    = "M30\n"
 ResX     = 100000
 ResY     = 100000
@@ -12,7 +12,7 @@ ResY     = 100000
 DrillSize  = "%sC%0.5f\n"        ; (Tool code, tool size)
 AutoDrill  = "T%02d"             ; (Tool number)
 FirstDrill = 1
-BeginData  = "%%\n"
+BeginData  = "%%\nG90\n"
 Units    = Inch
 Select   = "%s\n"                ; (Drill code)
 Drill    = "X%1.0fY%1.0f\n"      ; (x, y)
